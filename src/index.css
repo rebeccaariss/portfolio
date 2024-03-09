@@ -6,8 +6,8 @@ html {
 body {
   margin: 0;
   font-family: monospace;
-  background-color: rgb(192,207,178);
-  color: white;
+  background-color: rgb(221, 231, 252);
+  color: rgb(58, 59, 64);
 }
 
 section {
@@ -21,6 +21,7 @@ section {
 h1 {
   font-family: monospace;
   font-size: 75px;
+  font-weight: 100;
   margin-bottom: 0;
 }
 
@@ -34,11 +35,12 @@ nav {
   position: fixed;
   display: flex;
   align-items: flex-start;
-  font-size: 24px;
-  letter-spacing: 1px;
-  padding: 20px;
+  font-size: 22px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  padding: 10px;
   width: 100vw;
-  background: rgb(255 255 255 / 30%);
+  background: rgb(255 255 255 / 50%);
 }
 
 a {
