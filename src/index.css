@@ -74,3 +74,36 @@ p {
   margin-right: 50px;
   cursor: pointer;
 }
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 600px) {
+  nav {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  #about {
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+
+  #social-icons {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2px;
+  }
+}

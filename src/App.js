@@ -31,7 +31,7 @@ function App() {
         <h2>🔧 <em>This section is under construction</em> 🚧</h2>
       </section>
       <section id='contact'>
-        <div class='social-icons'>
+        <div id='social-icons'>
           {/* GitHub */}
           <a href='https://github.com/rebeccaariss' target='_blank' rel='noopener noreferrer'>
             <FontAwesomeIcon icon={faGithubAlt} className='icon' />
