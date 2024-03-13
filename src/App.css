@@ -84,7 +84,6 @@ p {
   transform: scale(0.98);
 }
 
-
 /* Media Query: Large Smartphone */
 @media screen and (max-width: 600px) {
   nav {
