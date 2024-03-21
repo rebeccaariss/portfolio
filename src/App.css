@@ -55,6 +55,10 @@ p {
   margin: 5px;
 }
 
+img {
+  width: 40rem;
+}
+
 #about {
   padding: 10px 200px 10px 200px;
   font-size: 22px;
@@ -101,6 +105,10 @@ p {
   h2 {
     font-size: 18px;
     font-weight: normal;
+  }
+
+  img {
+    width: 30rem;
   }
   
   #about {
