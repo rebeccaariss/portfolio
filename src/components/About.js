@@ -10,7 +10,7 @@ function About () {
 
         <p>🎓 <a href='https://www.lighthouselabs.ca/en/employers' target='_blank' rel='noopener noreferrer'>Lighthouse Labs</a> grad</p>
 
-        <p>👩🏼‍💻 Currently studying: <a href='https://www.udemy.com/course/complete-react-developer-zero-to-mastery/?couponCode=KEEPLEARNING' target='_blank' rel='noopener noreferrer'>Redux</a>, <a href='https://www.udacity.com/course/web-accessibility--ud891' target='_blank' rel='noopener noreferrer'>Web Accessibility</a></p>
+        <p>👩🏼‍💻 Currently studying: <a href='https://nextjs.org/learn' target='_blank' rel='noopener noreferrer'>Next.js</a>, <a href='https://www.udacity.com/course/web-accessibility--ud891' target='_blank' rel='noopener noreferrer'>Web Accessibility</a></p>
 
         <p>🎧 Listening to: <a href='https://open.spotify.com/artist/2mVVjNmdjXZZDvhgQWiakk' target='_blank' rel='noopener noreferrer'>Khruangbin</a>, <a href='https://open.spotify.com/artist/3IunaFjvNKj98JW89JYv9u' target='_blank' rel='noopener noreferrer'>The Japanese House</a></p>
 
