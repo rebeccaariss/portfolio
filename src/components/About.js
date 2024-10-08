@@ -16,7 +16,7 @@ function About () {
 
         <p>🎧 Listening to: <a href='https://open.spotify.com/artist/2mVVjNmdjXZZDvhgQWiakk' target='_blank' rel='noopener noreferrer'>Khruangbin</a>, <a href='https://open.spotify.com/artist/3IunaFjvNKj98JW89JYv9u' target='_blank' rel='noopener noreferrer'>The Japanese House</a></p>
 
-        <p>📖 Reading: <a href='https://www.goodreads.com/book/show/89717.The_Haunting_of_Hill_House' target='_blank' rel='noopener noreferrer'>The Haunting of Hill House</a> by Shirley Jackson, <a href='https://www.goodreads.com/book/show/62608040-fieldwork' target='_blank' rel='noopener noreferrer'>Fieldwork: A Forager's Memoir</a> by Iliana Regan</p>
+        <p>📖 Reading: <a href='https://www.goodreads.com/book/show/89717.The_Haunting_of_Hill_House' target='_blank' rel='noopener noreferrer'>The Haunting of Hill House</a> by Shirley Jackson, <br></br><a href='https://www.goodreads.com/book/show/62608040-fieldwork' target='_blank' rel='noopener noreferrer'>Fieldwork: A Forager's Memoir</a> by Iliana Regan</p>
 
         <p>🎮 Playing: <a href='https://www.nintendo.com/en-ca/store/products/eastward-octopia-70050000042973-switch/' target='_blank' rel='noopener noreferrer'>Octopia</a>, <a href='https://www.playstation.com/en-ca/games/kena-bridge-of-spirits/' target='_blank' rel='noopener noreferrer'>Kena: Bridge of Spirits</a></p>
       </div>
