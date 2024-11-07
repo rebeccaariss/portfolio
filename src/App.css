@@ -6,8 +6,8 @@ html {
 body {
   margin: 0;
   font-family: monospace;
-  background-color: rgb(221, 231, 252);
-  color: rgb(58, 59, 64);
+  background-color: rgb(16, 16, 16);
+  color: rgb(255, 255, 255);
 }
 
 nav {
@@ -20,7 +20,8 @@ nav {
   letter-spacing: 0.2px;
   padding: 10px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  /* background: rgb(255 255 255 / 50%); */
+  /* background: rgb(164, 186, 147); */
 }
 
 a {
@@ -57,6 +58,15 @@ p {
 
 img {
   width: 40rem;
+}
+
+#matchymatchy img, p {
+  width: 30rem;
+}
+
+#matchymatchy a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #about {
@@ -111,6 +121,10 @@ img {
 
   img {
     width: 30rem;
+  }
+
+  #matchymatchy img, p {
+    width: 20rem;
   }
   
   #about {
