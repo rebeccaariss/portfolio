@@ -1,3 +1,4 @@
+/* TODO: Switch from px to rem */
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -40,6 +41,11 @@ section {
   flex-direction: column;
 }
 
+/* paragraphs below demo gifs: */
+section p {
+  width: 40rem;
+}
+
 h1 {
   font-family: monospace;
   font-size: 75px;
@@ -58,6 +64,11 @@ p {
 
 img {
   width: 40rem;
+}
+
+/* About section: */
+.content p {
+  width: 50rem;
 }
 
 #matchymatchy img, p {
@@ -101,6 +112,7 @@ img {
 }
 
 /* Media Query: Large Smartphone */
+/* Collapse nav into side menu on resize so it's not hovering over/obscuring content */
 @media screen and (max-width: 600px) {
   nav {
     z-index: 10;
@@ -117,6 +129,11 @@ img {
   h2 {
     font-size: 18px;
     font-weight: normal;
+  }
+
+  /* paragraphs below demo gifs: */
+  section p {
+    width: 30rem;
   }
 
   img {
@@ -139,9 +156,17 @@ img {
 }
 
 /* Media Query: Tablet */
-/* @media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .icon {
     font-size: 75px;
     margin-right: 50px;
   }
-} */
+}
+
+@media only screen and (max-width: 800px) {
+  .icon {
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    padding: 0.15rem;
+  }
+}
