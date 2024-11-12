@@ -1,12 +1,15 @@
 /* TODO: Switch from px to rem */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
 html {
+  font-size: 16px; /* Establishing base font-size allows for easier rem calculations */
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: monospace;
+  font-family: 'Roboto Mono', monospace;
   background-color: rgb(16, 16, 16);
   color: rgb(255, 255, 255);
 }
@@ -16,17 +19,17 @@ nav {
   position: fixed;
   display: flex;
   align-items: flex-start;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: normal;
   letter-spacing: 0.2px;
-  padding: 10px;
+  padding: 0.6rem;
   width: 100vw;
   /* background: rgb(255 255 255 / 50%); */
   /* background: rgb(164, 186, 147); */
 }
 
 a {
-  margin-right: 25px;
+  margin-right: 1.5rem;
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -47,14 +50,15 @@ section p {
 }
 
 h1 {
-  font-family: monospace;
-  font-size: 75px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 5rem;
   font-weight: 100;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 32px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2rem;
   font-weight: normal;
 }
 
@@ -81,8 +85,8 @@ img {
 }
 
 #about {
-  font-size: 22px;
-  padding: 0 50px;
+  font-size: 1.3rem;
+  padding: 0 3rem;
 }
 
 #about a, #projects h2 {
@@ -97,8 +101,8 @@ img {
 }
 
 .icon {
-  font-size: 100px;
-  margin-right: 50px;
+  font-size: 6.25rem;
+  margin-right: 3rem;
   cursor: pointer;
 }
 
@@ -111,23 +115,39 @@ img {
   transform: scale(0.98);
 }
 
+/* Media Query: Tablet */
+@media only screen and (max-width: 1023px) {
+  .icon {
+    font-size: 4.7rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .icon {
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    padding: 0.15rem;
+  }
+}
+
 /* Media Query: Large Smartphone */
-/* Collapse nav into side menu on resize so it's not hovering over/obscuring content */
+/* TODO: Collapse nav into side menu on resize so it's not hovering over/obscuring content */
 @media screen and (max-width: 600px) {
   nav {
     z-index: 10;
     position: fixed;
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 1rem;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: normal;
   }
 
@@ -145,28 +165,16 @@ img {
   }
   
   #about {
-    font-size: 16px;
-    padding: 0 25px;
+    font-size: 1rem;
+    padding: 0 1.5rem;
   }
 
-  .icon {
-    font-size: 50px;
-    margin-right: 25px;
-  }
-}
-
-/* Media Query: Tablet */
-@media only screen and (max-width: 1023px) {
-  .icon {
-    font-size: 75px;
-    margin-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
   .icon {
     font-size: 3rem;
-    margin-right: 0.5rem;
-    padding: 0.15rem;
+    margin-right: 1.5rem;
   }
 }
+
+/* TODO: Icons get smaller then bigger as window gets smaller. */
+
+/* TODO: About section needs to be better optimized for mobile */
