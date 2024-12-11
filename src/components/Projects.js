@@ -1,5 +1,6 @@
 import React from 'react';
-import matchyMatchyDemo from '../assets/matchy-matchy-demo.gif';
+// import matchyMatchyDemo from '../assets/matchy-matchy-demo.gif';
+import matchyMatchyDemo2 from '../assets/matchy-matchy-demo-2.gif';
 import karityDemo from '../assets/karity-demo.gif';
 import linkfolioDemo1 from '../assets/linkfolio-demo-1.gif';
 // import linkfolioDemo2 from '../assets/linkfolio-demo-2.gif';
@@ -11,7 +12,7 @@ const CONTENT = [
     title: 'matchy matchy',
     link: 'https://github.com/rebeccaariss/matchy-matchy',
     linkAlt: 'matchy matchy GitHub Repo',
-    img: matchyMatchyDemo,
+    img: matchyMatchyDemo2,
     imgAlt: 'matchy matchy Demo',
     text: [
       <p>🚧 <em>Work in progress</em> 🚧</p>,
