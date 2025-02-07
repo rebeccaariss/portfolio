@@ -20,9 +20,9 @@ function About () {
 
         <p>🎧 Listening to: <a href='https://open.spotify.com/artist/5QdyldG4Fl4TPiOIeMNpBZ?si=7-KUc6_oSR-_y3Tp8GEaRA' target='_blank' rel='noopener noreferrer'>Big Thief</a>, <a href='https://open.spotify.com/artist/3IunaFjvNKj98JW89JYv9u' target='_blank' rel='noopener noreferrer'>The Japanese House</a></p>
 
-        <p>📖 Reading: <a href='https://www.goodreads.com/book/show/62608040-fieldwork' target='_blank' rel='noopener noreferrer'>Fieldwork: A Forager's Memoir</a> by Iliana Regan</p>
+        <p>📖 Reading: <a href='https://app.thestorygraph.com/books/6d74f9d0-c0ad-40f8-abc2-3d8016467c1d' target='_blank' rel='noopener noreferrer'>The Fifth Season</a> by N.K. Jemisin</p>
 
-        <p>🎮 Playing: <a href='https://www.nintendo.com/us/store/products/gone-home-switch/' target='_blank' rel='noopener noreferrer'>Gone Home</a>, <a href='https://www.playstation.com/en-ca/games/kena-bridge-of-spirits/' target='_blank' rel='noopener noreferrer'>Kena: Bridge of Spirits</a></p>
+        <p>🎮 Playing: <a href='https://neva.game/' target='_blank' rel='noopener noreferrer'>Neva</a>, <a href='https://www.terranil.com/' target='_blank' rel='noopener noreferrer'>Terra Nil</a></p>
       </div>
 
       {/* <p align="center">

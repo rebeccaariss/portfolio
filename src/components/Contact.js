@@ -23,7 +23,7 @@ function Contact() {
           </a>
 
         {/* Resume */}
-          <a href='https://flowcv.com/resume/arohtm656b' target='_blank' rel='noopener noreferrer'>
+          <a href='https://flowcv.com/resume/tc8g7sl9ff' target='_blank' rel='noopener noreferrer'>
             <FontAwesomeIcon icon={faFile} className='icon' title='My FlowCV Resume' />
           </a>
           
